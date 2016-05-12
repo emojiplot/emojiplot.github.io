@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Emoji based short story plot generator" />
+<meta name="keywords" content="emoji, plot, writing, ideas, short stories" />
+<meta charset="UTF-8">
+<title>EmojiPlot: Ideas for your next short story</title>
+<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="emojiplot.css">
+<script type="text/javascript" src="emojis.js"></script>
+<script type="text/javascript" src="emojiplot.js"></script>
+<!--
+  <PageMap>
+     <DataObject type="document">
+        <Attribute name="title">EmojiPlot: Ideas for your next short story</Attribute>
+        <Attribute name="description">Emoji based short story plot generator.</Attribute>
+     </DataObject>
+  </PageMap>
+  -->
+</head>
+
+<body>
+<div id="header">
+	<div class="actions">
+		<a id="reload" href="#" onClick="gen_emoji('1');"><img src="img/1F504.png" width="32px" height="32px" alt="reload" /></a>
+	</div>
+
+	<div class="links">
+		<input type="text" id="url" class="url" name="" value="" size="42"/>
+		<a id="share" href="#" onClick="show('url');"><img src="img/1F517.png" width="32px" height="32px" alt="share" /></a>
+	</div>
+</div>
+
+<div id="data" class="emoji_data">
+<center>
+    <div id="emojis" class="emojis">
+		<canvas id="canv" width="384" height="64"></canvas>
+		<script type="text/javascript">
+			gen_emoji('0');
+	    </script>
+	</div>
+</center>
+<br/>
+</div>
+
+
+<div id="footer" class="footer">
+    <span id="legal" class="legal">
+        <img src="img/1F36A.png" width="32px" height="32px">
+        <img src="img/1F5F9.png" width="32px" height="32px">
+        <img src="img/2B1C.png" width="8px" height="8px">
+        <img src="img/1F4CA.png" width="32px" height="32px">
+        <img src="img/1F5F9.png" width="32px" height="32px">
+        <img src="img/2B1C.png" width="8px" height="8px">
+        <img src="img/1F599.png" width="32px" height="32px">
+        <img src="img/1F600.png" width="32px" height="32px">
+        <img src="img/1F44F.png" width="32px" height="32px">
+        <a href="http://emojione.com/">
+            <img src="img/1F300.png" width="32px" height="32px"></a>
+        <a href="http://emojione.com/">
+            <img src="img/0031-20E3.png" width="32px" height="32px" alt="Emoji provided free by Emoji One"></a>
+        <img src="img/2B1C.png" width="8px" height="8px"></span>
+        <a href="#" onClick="show('legal')"><img src="img/1F3DB.png" width="32px" height="32px" alt="legal" /></a>
+</div>
+</body>
+</html>
+
